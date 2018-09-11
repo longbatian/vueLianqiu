@@ -1,0 +1,216 @@
+// {
+
+//   "arry": [
+//   {
+//     key: 01,
+//     name: '星星',
+//     content: [
+//       {
+//         name: '周一',
+//         content: [
+//         {
+//           name: '靠墙蹲',
+//           time: 30,
+//           nice: 3
+//         },
+//         {
+//           name: '交叉步',
+//           time: 120,
+//           nice: 3
+//         },
+//         {
+//           name: '蛙跳',
+//           time: 40,
+//           nice: 3
+//         },
+//         {
+//           name: '平板支撑',
+//           time: 30,
+//           nice: 2
+//         },
+//         {
+//           name: '绕手腕',
+//           time: 30,
+//           nice: 3
+//         }]
+//       },
+//       {
+//         name: '周二',
+//         content: [
+//         {
+//           name: '靠墙蹲',
+//           time: 30,
+//           nice: 3
+//         },
+//         {
+//           name: '交叉步',
+//           time: 120,
+//           nice: 3
+//         },
+//         {
+//           name: '蛙跳',
+//           time: 40,
+//           nice: 3
+//         },
+//         {
+//           name: '平板支撑',
+//           time: 30,
+//           nice: 2
+//         },
+//         {
+//           name: '绕手腕',
+//           time: 30,
+//           nice: 3
+//         }]
+//       }
+
+//     ]
+//   }]
+// }
+{
+  "ret": true,
+  "data":
+  {
+    "arry": [
+    {
+      "name": '星星',
+      "keys": 1,
+      content: [
+        {
+          name: '周一',
+          content: [
+          {
+            name: '靠墙蹲',
+            time: 0.5,
+            nice: 3
+          },
+          {
+            name: '交叉步',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '蛙跳',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '平板支撑',
+            time: 1,
+            nice: 2
+          },
+          {
+            name: '绕手腕',
+            time: 2,
+            nice: 2
+          }]
+        },
+        {
+          name: '周二',
+          content: [
+          {
+            name: '靠墙蹲',
+            time: 0.5,
+            nice: 3
+          },
+          {
+            name: '交叉步',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '蛙跳',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '平板支撑',
+            time: 1,
+            nice: 2
+          },
+          {
+            name: '绕手腕',
+            time: 2,
+            nice: 2
+          }]
+        }
+
+      ]
+
+    },
+    {
+      "name": '鑫鑫',
+      "keys": 2,
+      content: [
+        {
+          name: '周一',
+          content: [
+          {
+            name: '靠墙蹲',
+            time: 0.5,
+            nice: 3
+          },
+          {
+            name: '交叉步',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '蛙跳',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '平板支撑',
+            time: 1,
+            nice: 2
+          },
+          {
+            name: '绕手腕',
+            time: 0,
+            nice: 0
+          }]
+        }
+
+      ]
+
+    },
+  {
+      "name": 'RH',
+      "keys": 3,
+      content: [
+        {
+          name: '周一',
+          content: [
+          {
+            name: '靠墙蹲',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '交叉步',
+            time: 2,
+            nice: 3
+          },
+          {
+            name: '蛙跳',
+            time: 0,
+            nice: 0
+          },
+          {
+            name: '平板支撑',
+            time: 0,
+            nice: 0
+          },
+          {
+            name: '绕手腕',
+            time: 0,
+            nice: 0
+          }]
+        }
+
+      ]
+
+    }]
+  }
+}
