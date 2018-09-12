@@ -16,7 +16,7 @@ export default {
   },
   mounted(){
    	this.getHomeInfo()
-    	console.log(this.$route.params.id)
+    	
   },
   methods: {
   	getHomeInfo () {
@@ -26,7 +26,7 @@ export default {
 	getHomeInfoSucc(res){
 		if(res&&res.data){
 			const data=eval('(' + res.data + ')');
-			var datas1=[],datas2=[],datas3=[],datas4=[],datas5=[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]
+			var datas1=[],datas2=[],datas4=[],datas5=[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]
 			];
 			// console.log(data.data)
 			// console.log(data)
@@ -48,11 +48,12 @@ export default {
 				}
 			})
 			data.data.arry.map((item,i)=>{
+
 				if(item.keys==this.$route.params.id){
-						item.content.map((it,j)=>{
+					item.content.map((it,j)=>{
+						var datas3=[];
 						it.content.map((jj,k)=>{
-									console.log(jj)
-								datas3[k]=jj.time*jj.nice
+							datas3[k]=jj.time*jj.nice
 						})
 						datas4.push(datas3)
 					})
@@ -61,14 +62,11 @@ export default {
 			})
 			datas4.map((item,i)=>{
 				for (var j = 0; j < item.length; j++) {
-					// var datas6=[];
-					// datas6[j]=item[j]
-					// console.log(datas6)
 					datas5[j][i] =item[j]+datas5[j][i]
-					// console.log(typeof(item[j]))
+			
 				}
 			})
-			console.log(datas5)
+			console.log(datas4)
 			this.drawLine(datas1,datas2,datas5);
 		}
 	},
